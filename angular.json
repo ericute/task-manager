@@ -21,7 +21,12 @@
             "aot": true,
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              {
+                "glob": "**/*",
+                "input": "node_modules/ngx-auth-firebaseui/assets/",
+                "output": "./assets/"
+              }
             ],
             "styles": [
               "src/styles.css"
@@ -119,6 +124,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "task-manager"
+    }
+  },
+  "defaultProject": "task-manager",
+  "cli": {
+    "analytics": "2f2e652e-d742-47a2-8fb1-aad7d7d2592c"
+  }
 }
