@@ -20,7 +20,11 @@ import { NgxAuthFirebaseUIModule } from 'ngx-auth-firebaseui';
     AngularFireModule.initializeApp(environment.firebase),
     AngularFirestoreModule,
     BrowserAnimationsModule,
-    NgxAuthFirebaseUIModule.forRoot(environment.firebase)
+    NgxAuthFirebaseUIModule.forRoot(
+      environment.firebase,
+      () => 'taskManager',
+      environment.firebaseUIConfig
+    )
   ],
   providers: [],
   bootstrap: [AppComponent]
