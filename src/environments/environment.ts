@@ -5,14 +5,14 @@
 export const environment = {
   production: false,
   firebase: {
-    apiKey: "AIzaSyAFUOq2fZC3tein2Xl4A_xzEN4i1WbsDEA",
-    authDomain: "task-manager-fbf59.firebaseapp.com",
-    databaseURL: "https://task-manager-fbf59.firebaseio.com",
-    projectId: "task-manager-fbf59",
-    storageBucket: "task-manager-fbf59.appspot.com",
-    messagingSenderId: "444018319754",
-    appId: "1:444018319754:web:c6a2b1dd09ec1314d32873",
-    measurementId: "G-791VB90B3W"
+    apiKey: "<PLACEHOLDER>",
+    authDomain: "<PLACEHOLDER>",
+    databaseURL: "<PLACEHOLDER>",
+    projectId: "<PLACEHOLDER>",
+    storageBucket: "<PLACEHOLDER>",
+    messagingSenderId: "<PLACEHOLDER>",
+    appId: "<PLACEHOLDER>",
+    measurementId: "<PLACEHOLDER>"
   },
   firebaseUIConfig: {
     enableFirestoreSync: true, // enable/disable autosync users with firestore
